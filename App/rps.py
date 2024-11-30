@@ -68,10 +68,14 @@ def home_screen():
             print("Enter a number from 1-3 only.")
 
 def signUp():
-    pass
+    enter_username = input("Enter a username to play with: ")
+    play_rps(enter_username)
 
 def signIn():
     pass
 
 def show_leaderboard():
+    pass
+
+def play_rps(username):
     pass
